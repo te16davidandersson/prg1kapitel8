@@ -15,11 +15,11 @@ public class ovn8_1{
 	}
 }
 class cirkel {
-	public static double area(double a){
-		return Math.PI * a * a;
+	public static double area(double r){
+		return Math.PI * r * r;
 	}
-	public static double omkrets(double a){
-		return 2.0 * Math.PI * a;
+	public static double omkrets(double r){
+		return 2.0 * Math.PI * r;
 	}
 	
 }
