@@ -6,9 +6,9 @@ David Andersson
 
 public class ovn8_2 {
 	public static void main(String[]args){
-	char a1 = '\u00E5';
-	char a2 = '\u00E4';
-	char o1 = '\u00F6';
+	char a1 = '\u00E5'; //å
+	char a2 = '\u00E4'; //ä
+	char o1 = '\u00F6'; //ö
 	
 	String year = JOptionPane.showInputDialog(null, "Vilket " + a1 + "r " + a2 + "r det?");
 	int skottår = Integer.parseInt(year);
